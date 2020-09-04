@@ -9,7 +9,7 @@ import { Socket } from 'ngx-socket-io';
 export class WebsocketService {
 
   public socketStatus = false;
-  public usuario = null;
+  // public usuario = null;
 
   constructor(
     private socket: Socket
