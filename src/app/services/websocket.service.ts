@@ -22,7 +22,7 @@ export class WebsocketService {
 
       this.socket.on('connect', () => {
         console.log('Conectado al servidor');
-        this.socketStatus = true;
+        this.socketStatus = true;  
       });
 
       this.socket.on('disconnect', () => {
