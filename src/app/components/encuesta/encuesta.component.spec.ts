@@ -23,3 +23,6 @@ describe('EncuestaComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
+
